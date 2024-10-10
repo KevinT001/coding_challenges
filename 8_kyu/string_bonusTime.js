@@ -22,6 +22,14 @@ function bonusTime(salary, bonus) {
   }
 }
 
+
+// short hand solution
+// //function bonusTime(salary, bonus) {
+//   return bonus ? `£${10 * salary}` : `£${salary}`;
+// }
+
+
+
 // describe("Basic tests",() =>{
 //   it("Testing for fixed tests", () => {
 //     assert.strictEqual(bonusTime(10000, true), '£100000');

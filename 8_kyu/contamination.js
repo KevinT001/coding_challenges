@@ -27,3 +27,11 @@ let finalText = newText.join("");
 }
 
 contamination("abc", "z");
+
+//Short hand  and other solutions
+
+// function contamination(text, char){
+//   return char.repeat(text.length)
+// }
+
+//const contamination = (text, char) => char.repeat(text.length);

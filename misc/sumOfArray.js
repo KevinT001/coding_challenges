@@ -10,10 +10,10 @@ function sumMix(arr){
   //reduce
   
 
-  return arr.reduce((accumulator, crntVal) => accumlator + Number(crntVal), 0)
+  return arr.reduce((accumulator, crntVal) => accumulator + Number(crntVal), 0)
   
 }
 
-const sumMix = arr => arr.reduce((a,c)=> a+ +c, 0)
+// const sumMix = arr => arr.reduce((a,c)=> a+ +c, 0)
 
 console.log(sumMix([9 ,3,'7','3']),22) 

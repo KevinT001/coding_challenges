@@ -15,3 +15,9 @@ const avg = sum/marks.length
 return Math.floor(avg);
 }
 console.log(getAverage([3.2,5,1,2.5]),2)
+
+
+/*function getAverage(marks){
+  return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
+}
+  */

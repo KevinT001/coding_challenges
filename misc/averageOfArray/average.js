@@ -5,6 +5,9 @@ Return the average of the given array rounded down to its nearest integer.
 The array will never be empty.
 */
 
+/* NOTES
+LOOP and to sum
+sum/length of arr -> avg -> round it down
 
 function getAverage(marks){
   //TODO : calculate the downward rounded average of the marks array

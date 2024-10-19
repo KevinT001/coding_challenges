@@ -8,3 +8,16 @@ Note: The function accepts an integer and returns an integer.
 
 Happy Coding!*/
 
+//MY PSUEDO CODE::
+//take in number, no string, no floats
+//breakdown number into individual integers (create array of individual) -> num to string to array
+//loop over each number and square number (.map)
+//rejoin newly squared numbers and return. should not be in array. Convert back to number after joining
+
+function squareDigits(num){
+  let numArr = String(num).split("") //['1','2', '3', '4']
+  
+  let squaredArr = numArr.map(x => x**2) //[1,4,9,16]
+  
+  return Number(squaredArr.join('')); // '14916' -> 14916
+}

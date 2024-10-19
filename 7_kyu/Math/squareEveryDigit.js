@@ -7,6 +7,7 @@ Example #2: An input of 765 will/should return 493625 because 72 is 49, 62 is 36
 Note: The function accepts an integer and returns an integer.
 
 Happy Coding!*/
+//FROM :::::: https://www.codewars.com/kata/546e2562b03326a88e000020/train/javascript
 
 //MY PSUEDO CODE::
 //take in number, no string, no floats

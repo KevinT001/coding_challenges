@@ -17,6 +17,11 @@ if(name.split("")[0] == "R" || name.split("")[0] =="r"){
 
 }
 
+/* SHORT HAND SOLUTION: function areYouPlayingBanjo(name) {
+  return name + (name[0].toLowerCase() == 'r' ? ' plays' : ' does not play') + " banjo";
+}
+
+*/
 /* SIMPLE TESTS
 
 describe("Basic tests", () => {

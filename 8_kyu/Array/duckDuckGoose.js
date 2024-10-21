@@ -13,7 +13,12 @@ duck_duck_goose([a, b, c, d], 5) should return a.name
 duck_duck_goose([a, b, c, d], 4) should return d.name
 */
 
+function duckDuckGoose(players, goose) {
+const position = (goose -1) % players.length
 
+return players[position].name
+  
+}
 
 
 

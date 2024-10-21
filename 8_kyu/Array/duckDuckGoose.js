@@ -14,8 +14,8 @@ duck_duck_goose([a, b, c, d], 4) should return d.name
 */
 
 function duckDuckGoose(players, goose) {
-const position = (goose -1) % players.length
-
+const position = (goose -1) % players.length //create variable named position. subtract 1 from goose to account for index value starting at 0 of players array
+                                              // use modulo operator to get remainder which if large player array would determine a full loop (if necessary) and find position of name for goose number.
 return players[position].name
   
 }

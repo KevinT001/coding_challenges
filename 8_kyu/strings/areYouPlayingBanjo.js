@@ -8,8 +8,8 @@ name + " does not play banjo"
 Names given are always valid strings. */
 
 function areYouPlayingBanjo(name) {
-
-if(name.split("")[0] == "R" || name.split("")[0] =="r"){
+if (name[0].toUpperCase() == "R"){
+// if(name.split("")[0] == "R" || name.split("")[0] =="r"){        (take out for refactor)
   return `${name} plays banjo`
 }else{
   return`${name} does not play banjo`

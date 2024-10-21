@@ -12,3 +12,12 @@ duck_duck_goose([a, b, c, d], 1) should return a.name
 duck_duck_goose([a, b, c, d], 5) should return a.name
 duck_duck_goose([a, b, c, d], 4) should return d.name
 */
+
+/* psuedo code before working on challenge
+
+given array of names, loop through array until goose(count) ends on a name. 
+
+should return name. 
+
+Initial thought is for loop. assign initial count and go up by one until goose(count) is met.
+

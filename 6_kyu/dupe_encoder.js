@@ -18,3 +18,9 @@ Assertion messages may be unclear about what they display in some languages. If 
 // spaces -> count as a character
 //'din' -> "((("
 //'recede' -> "()()()"
+
+/* .toLowerCase()
+.split()
+check if they repeat   -> indexOf lastIndexOf
+change to '(' or ')' -> .map 
+.join() -> to a string

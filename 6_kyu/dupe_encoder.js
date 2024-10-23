@@ -12,3 +12,9 @@ Assertion messages may be unclear about what they display in some languages. If 
 
 
 */
+
+// str -> ignore capitals
+// str -> '(' is only once and ')' is more than once
+// spaces -> count as a character
+//'din' -> "((("
+//'recede' -> "()()()"

@@ -28,9 +28,12 @@ change to '(' or ')' -> .map
 */
 function encodeDupes(str){
 
-  return str.toLowerCase()
-  .split('')
+  return str.toLowerCase() //convert string to lowercase to avoid issues with capitalizations.
+  .split('') //split string up into array/ individual characers
   .map( (currentVal, index, array) => array.indexOf(currentVal) === array.lastIndexOf(currentVal) ? '(' : ')' )
-  .join('')
+        //map through array comparing the each letter and index to if it appears again in another index spot. 
+
+
+  .join('') // joins the conversion back to string.
   
 }

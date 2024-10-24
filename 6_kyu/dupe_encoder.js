@@ -24,3 +24,13 @@ Assertion messages may be unclear about what they display in some languages. If 
 check if they repeat   -> indexOf lastIndexOf
 change to '(' or ')' -> .map 
 .join() -> to a string
+
+*/
+function encodeDupes(str){
+
+  return str.toLowerCase()
+  .split('')
+  .map( (currentVal, index, array) => array.indexOf(currentVal) === array.lastIndexOf(currentVal) ? '(' : ')' )
+  .join('')
+  
+}
